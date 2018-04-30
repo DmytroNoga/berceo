@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>berceo1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <style>
+    .active {
+      transition: all 0.2s;
+    }
+
+    .active a {
+      border-bottom: .1rem solid black;
+      padding-bottom: .4rem;
+    }
+
+    /* li{
+      transition: all 2.2s;
+    } */
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".navbar-nav").children().each(function() {
+        $(this).on('click', function() {
+          $(".navbar-nav li").removeClass("active");
+          $(this).addClass('active');
+        })
+      })
+    });
+  </script>
+</head>
+
+<body id="home">
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <!-- <div class="container" style="flex-wrap: wrap"> -->
+    <div class="container">
+      <div class="logo">
+        <img class="navbar-brand" src="logo.png" alt="logo">
+      </div>
+
+      <div class="left-header col-12 col-sm-12 col-md-6">
+
+        <!-- <a href="index.html" class="navbar-brand">image</a> -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-phone"></a>
+          </li>
+          <li>
+            <a href="#" class="nmbrf-f">+34 923 213 564</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-facebook-square"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-twitter"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-instagram"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-google-plus"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="fa fa-pinterest"></a>
+          </li>
+        </ul>
+
+        <ul class="nav-menu-st navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prices">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+        </ul>
+        <!-- </div> -->
+      </div>
+
+      <!-- <div class="navbar-collapse col-12 col-sm-12 col-md-6" id="navbarCollapse"> -->
+
+    </div>
+
+  </nav>
+
+  <!-- banner SECTION -->
+  <section id="banner">
+    <div class="container">
+      <div class="rectangle2">
+        <h2 class="header-first">LEARNING SPANISH<br> IN SALAMANKA</h2>
+        <a href="#" class="btn btn-about">ABOUT</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- services SECTION -->
+  <section id="services">
+    <div class="container">
+      <div class="row text-center">
+        <div class=".col-sm-4 icon">
+          <div class="circle"></div>
+          <div class="icon-titile">Professionalism</div>
+          <div class="icon-text">National accreditation by the<br>International Institute of Cervantes<br>Teaching with profile education E.L.E</div>
+        </div>
+
+        <div class=".col-sm-4 icon">
+          <div class="circle"></div>
+          <div class="icon-titile">Variability of Courses</div>
+          <div class="icon-text">All levels preparation for admission to bachelor, master. Preparatory courses of D.E.L.E<br>24/7 support in all stages</div>
+        </div>
+
+        <div class=".col-sm-4 icon">
+          <div class="circle"></div>
+          <div class="icon-titile ">Assistance in Execution<br>of Documents </div>
+          <div class="icon-text">Free registration of an invitation for a visa<br>Selection of accommodation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about SECTION -->
+  <section id="about">
+    <div class="container">
+      <div class="about-title text-center">About</div>
+      <div class="about-text text-center">BERCEO is an award-winning language Spanish language school located in the historic centre of the enchanting World Heritage city of Salamanca, the heart of Old Spain.<br><br>We are passionate about teaching Spanish and looking after our students.
+        BERCEO offers a range of Spanish language courses in Salamanca, a unique freetime activity program and free study resources for all Spanish learners. Study in Berceo, discover our culture, learn Spanish and improve opportunities for your successful
+        future.
+      </div>
+    </div>
+  </section>
+
+  <!-- how we work SECTION -->
+  <section id="howwork">
+    <div class="container text-center">
+      <div class="howwork-title">How we work?</div>
+      <div class="d-flex flex-row justify-content-around my-flex-container">
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Your Application</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Information on<br>Request</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Enrollment</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Reservation</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Official invitation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- prices SECTION -->
+  <section id="prices">
+    <div class="container">
+      <div class="prices-title text-center">Prices</div>
+      <table class="table table-hover">
+        <thead>
+          <tr class="table-untr1">
+            <th class="th-0">General Courses</th>
+            <th class="th-week">1 Week</th>
+            <th class="th-week">2 Week</th>
+            <th class="th-week">3 Week</th>
+            <th class="th-week">4 Week</th>
+            <th class="th-week">6 Week</th>
+            <th class="th-week">8 Week</th>
+            <th class="th-week">12 Week</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-untr2">
+            <th scope="row">
+              <div class="th-1">L04</div>
+              <div class="th-2">Intensive course</div>
+              <div class="th-2">of Spanish language</div>
+              <div class="th-3">20 group lessons/week</div>
+              <div class="th-3">4 lessons daily</div>
+            </th>
+            <td class="td-1">190 €</td>
+            <td class="td-1">325 €</td>
+            <td class="td-1">455 €</td>
+            <td class="td-1">580 €</td>
+            <td class="td-1">830 €</td>
+            <td class="td-1">1080 €</td>
+            <td class="td-1">1595 €</td>
+          </tr>
+          <tr class="table-untr2">
+            <th>
+              <div class="th-1">L05</div>
+              <div class="th-2">Super Intensive course</div>
+              <div class="th-2">of Spanish language</div>
+              <div class="th-3">25 group lessons/week</div>
+              <div class="th-3">5 lessons daily</div>
+              <td class="td-1">240 €</td>
+              <td class="td-1">390 €</td>
+              <td class="td-1">535 €</td>
+              <td class="td-1">670 €</td>
+              <td class="td-1">950 €</td>
+              <td class="td-1">1220 €</td>
+              <td class="td-1">1810 €</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <div class="th-1">D06</div>
+              <div class="th-2">Preparation courses</div>
+              <div class="th-2">of D.E.L.E</div>
+              <div class="th-3">25 group lessons/week</div>
+              <div class="th-3">5 lessons daily</div>
+            </th>
+            <td class="td-1">215 €</td>
+            <td class="td-1">410 €</td>
+            <td class="td-1">555 €</td>
+            <td class="td-1">695 €</td>
+            <td class="td-1">980 €</td>
+            <td class="td-1">1260 €</td>
+            <td>--</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+
+      <table class="table table-hover">
+        <thead>
+          <tr class="table-untr1">
+            <th>Special Courses</th>
+            <th class="th-week">1 Week</th>
+            <th class="th-week">2 Week</th>
+            <th class="th-week">3 Week</th>
+            <th class="th-week">4 Week</th>
+            <th class="th-week">6 Week</th>
+            <th class="th-week">8 Week</th>
+            <th class="th-week">12 Week</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-untr2">
+            <th scope="row">
+              <div class="th-1-2">E12</div>
+              <div class="th-2">Special Spanish course</div>
+              <div class="th-2">for teenagers students</div>
+              <div class="th-3">20 group lessons/week</div>
+              <div class="th-4">4 lessons daily</div>
+            </th>
+            <td class="td-1">190 €</td>
+            <td class="td-1">325 €</td>
+            <td class="td-1">455 €</td>
+            <td class="td-1">580 €</td>
+            <td class="td-1">830 €</td>
+            <td class="td-1">1080 €</td>
+            <td class="td-1">1595 €</td>
+          </tr>
+
+          <tr class="table-untr2">
+            <th scope="row">
+              <div class="th-1-2">E10</div>
+              <div class="th-2">Private lessons</div>
+              <div class="th-4">1-10 lessons</div>
+            </th>
+            <td colspan="7" class="td-1">36 € per lesson</td>
+          </tr>
+
+          <tr class="table-untr2">
+            <th scope="row">
+              <div class="th-1-2">E10</div>
+              <div class="th-2">Private lessons</div>
+              <div class="th-3">more than 10 lessons</div>
+            </th>
+            <td colspan="7" class="td-1">32 € per lesson</td>
+          </tr>
+
+          <tr class="table-untr2">
+            <th scope="row">
+
+
+
+              <div class="th-1-2">E11</div>
+              <div class="">Individual course of</div>
+              <div class="">Total Inmersion</div>
+              <div class="th-3">35 hours</div>
+            </th>
+            <td class="td-1">990 €</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+  <!-- adventages SECTION -->
+  <section id="adventages">
+    <div class="container text-center">
+      <div class="howwork-title">Adventages</div>
+      <div class="d-flex flex-row justify-content-around my-flex-container">
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Your Application</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Information on<br>Request</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Enrollment</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Reservation</div>
+        </div>
+
+        <div class="p-2 my-flex-item">
+          <div class="circle2"></div>
+          <div class="howwork-text">Official invitation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gallery SECTION -->
+
+  <!-- testimonials SECTION -->
+
+  <!-- cetificates SECTION -->
+
+  <!-- newsletter SECTION -->
+
+  <!-- contacts SECTION -->
+
+  <!-- footer SECTION -->
+  <!-- <section style="height: 300vh">
+
+  </section> -->
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+/* Style for "berceo header" */
+
+.body {
+  width: 100%;
+  /* height: 6860px; */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container, .container-fluid {
+  /* max-width: 73%;
+  width: 73%; */
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.nav-link {
+  /* display: block; */
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.nav-menu-st {
+  /* Style for "menu" */
+  height: 14px;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35.29px;
+  padding-right: 10px;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.fa {
+  padding-right: 10pt;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook-square, .fa-twitter, .fa-instagram, .fa-google-plus, .fa-pinterest, .fa-phone {
+  height: 20pt;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.nmbrf-f {
+  /* Style for "+34 923 21" */
+  width: 143px;
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-right: 10pt;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+/* Style for "berceo banner" */
+
+#banner {
+  margin-top: 96px;
+  width: 100%;
+  height: 585px;
+  background: #f0f0f0;
+}
+
+.bg-clms {
+  #f3f5ff
+}
+
+.header-first {
+  font-family: "Libre Franklin";
+  /* Style for "LEARNING S" */
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+/* .left-header button {
+  display: none;
+} */
+
+.rectangle2 {
+  height: 97px;
+  position: absolute;
+  margin-top: 9%;
+}
+
+.btn-about {
+  margin-top: 5%;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 51px;
+  background-color: #fe2416;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Libre Franklin";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+/* Style for "berceo services" */
+
+#services {
+  /* Style for "services" */
+  width: 100%;
+  /* height: 266px; */
+  /* background-color: #ebebeb; */
+}
+
+.icon {
+  /* Style for "icon " */
+  width: 370px;
+  height: 262px;
+  /* padding-bottom: .25rem solid #959595; */
+  border-bottom: .25rem solid #959595;
+  /* padding: 0 auto; */
+  /* margin-right: 20px; */
+  margin-top: -46px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 46px:
+}
+
+.circle {
+  margin: 53px auto 0;
+  width: 61px;
+  height: 60px;
+  background-color: #444444;
+  ;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+}
+
+.icon-titile {
+  margin-top: 21px;
+  /* Style for "Profession" */
+  color: #000000;
+  font-family: "Nunito Sans";
+  /* font-size: 16px; */
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.icon-text {
+  margin-top: 10px;
+  /* Style for "Free regis" */
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* Style for "berceo about" */
+
+#about {
+  /* height: 445px; */
+  padding-top: 96px;
+  padding-bottom: 111px;
+}
+
+.about-title {
+  /* height: 28px; */
+  color: #000000;
+  font-family: "Libre Franklin";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.about-text {
+  width: 65%;
+  padding-top: 49px;
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for "berceo how we work" */
+
+#howwork {
+  /* margin: 100px auto 111px; */
+  width: 100%;
+  /* height: 397px; */
+  background-color: #f0f0f0;
+}
+
+.howwork-title {
+  /* Style for "How we wor" */
+  /* width: 258px;
+  height: 30px; */
+  padding-top: 69px;
+  padding-bottom: 66px;
+  color: #000000;
+  font-family: "Proza Libre - Semi Bold";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.howwork-text {
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  padding-bottom: 85px;
+}
+
+.circle2 {
+  margin: 0 auto 17px;
+  width: 91px;
+  height: 90px;
+  background-color: #444444;
+  ;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+}
+
+/* Style for "berceo prices" */
+
+#prices {
+  width: 100%;
+  /* height: 972px; */
+}
+
+.prices-title {
+  /* Style for "Prices" */
+  margin: 61px auto 57px;
+  /* width: 105px; */
+  /* height: 29px; */
+  color: #000000;
+  font-family: "Proza Libre - Semi Bold";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.prices-text {
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.thead-bg {
+  background-color: #f0f0f0;
+  border-bottom: none;
+}
+
+.psr_table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table td {
+  vertical-align: middle;
+  text-align: center;
+  border-top: none;
+}
+
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: none;
+  border-bottom: none;
+}
+
+.table thead th {
+  border-bottom: none;
+}
+
+.table-untr1 {
+  /* Style for "Фигура 3" */
+  /* height: 4px;
+  background-color: #959595; */
+  border-bottom: 4px solid #f0f0f0;
+}
+
+.table-untr2 {
+  border-bottom: 1px solid #cccccc;
+}
+
+.th-0 {
+  color: #f2d73d;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.th-week {
+  text-align: center;
+  color: #959595;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.th-1 {
+  /* width: 30px;
+  height: 13px; */
+  color: #f2d73d;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.th-2 {
+  f color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.th-3 {
+  color: #4b4b4b;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.th-4 {
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.td-1 {
+  /* width: 42px; */
+  /* height: 13px; */
+  color: #000000;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.th-1-2 {
+  /* width: 30px;
+  height: 13px; */
+  color: #fe2416;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 667px) {
+  ul.navbar-nav {
+    flex-direction: row;
+  }
+  ul.navbar-nav li {
+    display: inline-flex;
+  }
+}
